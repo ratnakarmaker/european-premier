@@ -1,0 +1,11 @@
+.header img{
+    position: relative;
+}
+.header h1{
+    letter-spacing: 5px;
+    position: absolute;
+    top: 7%;
+    color: brown;
+    left: 27%;
+    font-weight: 600;
+}

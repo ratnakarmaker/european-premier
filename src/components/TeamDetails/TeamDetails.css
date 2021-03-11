@@ -1,0 +1,77 @@
+.t-color{
+    color: #a70826;
+    text-align: center;
+    font-weight: bold;
+}
+.banner{
+    position: relative;
+    opacity: 0.3;
+}
+.team_logo{
+    position: absolute;
+    top: 1%;
+    width: 23%;
+    padding: 2% 1%;
+    border: 5px solid white;
+    right: 2%;
+}
+.team_logo img{
+    width: 12%;
+}
+.team_data{
+    height: 552px;
+}
+.team_detail, .team_data{
+    background-color: #a70826;
+    box-shadow: -1px 3px 19px 7px brown;
+    border-radius: 9px;
+    margin-top: 10px;
+}
+.team_detail img{
+    padding: 20px;
+    border-radius: 32px;
+}
+.team_info{
+    color: white;
+    padding: 20px;    
+}
+.detail_icon{
+    padding-top: 17px;
+}
+.all_icon{
+    padding: 10px;
+}
+.social_icons img{
+    height: 35px;
+    width: 35px;
+    margin: 0px 5px;
+    border-radius: 50%;
+}
+.team_description{
+    background-color: #a70826;
+    box-shadow: -1px 3px 19px 7px brown;
+    border-radius: 9px;
+    margin-top: 10px;
+    padding: 30px;
+    height: 552px;
+    overflow-y: scroll;
+}
+.team_description > p{
+    color: white;
+    padding-top: 10px;
+}
+.team_description > h4{
+    color: white;
+    font-weight: bold;
+}
+
+/* media query */
+
+@media only screen and (max-width:991px){
+    .team_logo h4{
+        font-size: 20px;
+    }
+    .team_logo img{
+        width: 20%;
+    }
+}
